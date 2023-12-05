@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="BurpArse",
-    version="0.1.0",
+    version="0.1.1",
     description="Burp XML Parser",
     author="Oliver Scotten",
     author_email="oliver@hopliteconsulting.com",
