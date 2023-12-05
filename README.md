@@ -35,11 +35,11 @@ BurpArse
         BurpArse is a BurpSuite .xml parser.
 
         It can be used in two different ways.
-     It can create multiple CSV output files for every .xml file input, or it can create one CSV output file from all the .xml files.
+        It can create multiple CSV output files for every .xml file input, or it can create one CSV output file from all the .xml files.
 
-     This is specified through the '-o/--out' flag.
-     Without using this flag every .xml file will have an output of the same name and location as the original with .csv appended to the end.
-     With this flag all the .xml files will be combined into one CSV output at your desired name and location.
+        This is specified through the '-o/--out' flag.
+        Without using this flag every .xml file will have an output of the same name and location as the original with .csv appended to the end.
+        With this flag all the .xml files will be combined into one CSV output at your desired name and location.
 
 
 positional arguments:
