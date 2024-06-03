@@ -1,0 +1,22 @@
+name: Clone to Latest Branch
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  clone_to_latest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Create and switch to latest branch
+        run: git checkout -b latest
+
+      - name: Push changes to latest branch
+        run: |
+          git add .
+          git commit -m "Clone from main to latest"
+          git push origin latest
