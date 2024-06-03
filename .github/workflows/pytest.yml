@@ -38,7 +38,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest -vv --junitxml=pytest.xml --cov-report "xml:coverage.xml" --cov=argus tests/
+        pytest -vv --junitxml=pytest.xml --cov-report "xml:coverage.xml" --cov=burparse tests/
     - name: Pytest coverage comment
       if: always() && github.event_name == 'pull_request'
       uses: MishaKav/pytest-coverage-comment@main
