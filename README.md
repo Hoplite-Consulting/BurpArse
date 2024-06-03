@@ -13,7 +13,7 @@ Written by [Oliver Scotten](https://www.github.com/oliv10).
 ### Usage
 - Install requirements
 ```
-pip3 install git+https://github.com/Hoplite-Consulting/BurpArse.git
+pip3 install git+https://github.com/Hoplite-Consulting/BurpArse.git@latest
 ```
 
 Run the command ```burparse``` anywhere!
