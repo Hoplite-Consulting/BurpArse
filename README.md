@@ -30,7 +30,7 @@ usage: burparse [-h] [-o OUT] [-v] [-F] xmlFiles [xmlFiles ...]
                     |_|                           
 
 BurpArse
-0.1.1
+0.1.2
 
         BurpArse is a BurpSuite .xml parser.
 
