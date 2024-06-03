@@ -56,7 +56,7 @@ def main(xmlFiles, args):
 
 def setup():
 
-	__version__ = "0.1.1"
+	__version__ = "0.1.2"
 	NAME = "BurpArse"
 	DESC = """
 	BurpArse is a BurpSuite .xml parser.
