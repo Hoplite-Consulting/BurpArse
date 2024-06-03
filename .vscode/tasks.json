@@ -6,7 +6,8 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "pip3 install ."
+            "command": "pip3 install .",
+            "problemMatcher": []
         }
     ]
 }
