@@ -11,7 +11,7 @@ Written by [Oliver Scotten](https://www.github.com/oliv10).
 - SORT.conf - This is both the order and which items are shown in the CSV output.
 
 ### Usage
-- Install requirements
+- Install
 ```
 pip3 install git+https://github.com/Hoplite-Consulting/BurpArse.git@latest
 ```
