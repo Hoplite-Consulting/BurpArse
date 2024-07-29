@@ -10,7 +10,7 @@ setup(
     install_requires=[
         "alive_progress==3.1.5",
         "pyfiglet==1.0.2",
-        "setuptools==72.0.0"
+        "setuptools==72.1.0"
     ],
     entry_points={
         "console_scripts": [
