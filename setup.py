@@ -8,7 +8,7 @@ setup(
     author_email="oliver@hopliteconsulting.com",
     packages=find_packages(),
     install_requires=[
-        "alive_progress==3.1.5",
+        "alive_progress==3.2.0",
         "pyfiglet==1.0.2",
         "setuptools==72.2.0"
     ],
