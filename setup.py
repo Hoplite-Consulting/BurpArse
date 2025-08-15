@@ -9,7 +9,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "alive_progress==3.1.5",
-        "pyfiglet==1.0.2",
+        "pyfiglet==1.0.4",
         "setuptools==72.2.0"
     ],
     entry_points={
